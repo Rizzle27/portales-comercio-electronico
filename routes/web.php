@@ -16,6 +16,4 @@ use Illuminate\Support\Facades\Route;
 // Las rutas son combinaciones de un método HTTP con una URL tomada a partir de la carpeta public del framework y se asocian a una acción.
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index']);
 
-// Route::get('/peliculas/listado', [\App\Http\Controllers\HomeController::class, 'movies']);
-
-Route::get('/paises/lista', [\App\Http\Controllers\HomeController::class, 'paises']);
+Route::get('/galeria', [\App\Http\Controllers\HomeController::class, 'galeria']);

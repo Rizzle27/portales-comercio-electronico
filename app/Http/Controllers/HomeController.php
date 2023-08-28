@@ -15,7 +15,7 @@ class HomeController extends Controller {
     //     return view('movies/index');
     // }
 
-    public function paises() {
-        return view('paises/index');
+    public function galeria() {
+        return view('galeria');
     }
 };
